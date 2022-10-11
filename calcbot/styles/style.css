@@ -1,0 +1,88 @@
+* {
+    background: white;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+
+/* - CLASS -*/
+
+.buttons {
+    border: 1px solid orange;
+    padding: 7px;
+    cursor:pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.buttons:hover {
+    padding: 10px;
+    transition: 1s;
+    background-color: rgba(255, 208, 121, 0.164);
+}
+
+.hiddentext { /* - HIDDEN TEXTS FOR BUTTON - */
+    display:none;
+}
+
+.buttons_more {
+    border: 1px solid blue;
+    padding: 7px;
+    cursor:pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.buttons_more:hover {
+    padding: 8.5px;
+    transition: 1s;
+}
+
+/* - IDs - */
+
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title:hover{
+    cursor:help;
+}
+
+#button_more1:hover { /* - BUTTON MORE 1 -*/
+    transition: 1s;
+    padding: 7px;
+    background-color: rgba(255, 208, 121, 0.164);
+}
+
+#botname {
+    text-decoration: underline;
+    color: orange;
+    text-decoration-color: lightgray;
+    -webkit-text-stroke: 1px black;
+    cursor: help;
+}
+
+#result {
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+    cursor:progress;
+}
+
+#result:hover {
+    font-size: 24px;
+    transition: 1s;
+}
