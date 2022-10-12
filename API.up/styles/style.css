@@ -1,0 +1,58 @@
+* {
+    background-color: white;
+}
+
+body {
+    text-align: center;
+}
+
+/* - CLASS - */
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+    color: orange;
+    -webkit-text-stroke: 1px black;
+    cursor: help;
+}
+
+.infosend {
+    border: 1px solid black;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    display: block;
+}
+
+.infosend h2{
+    font-family: Arial;
+    color: black;
+}
+
+
+/* - IDs - */
+
+#before-url {
+    color: blue;
+    cursor: default;
+}
+
+#before-url:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+#send {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: rgba(153, 153, 153, 0.568);
+    transition: 1s;
+}
